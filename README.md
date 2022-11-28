@@ -523,21 +523,21 @@ EC2 DNS 주소로 접속했을 때
 (EC2 DNS 주소)/api
 ![image](https://user-images.githubusercontent.com/86969518/204092682-46c4b19d-bd0a-4545-9ae6-48d4e7a6338e.png)
 
-(EC2 DNS 주소)/api/register - 회원가입 api
+(EC2 DNS 주소)/api/register - 회원가입 api  
 ![image](https://user-images.githubusercontent.com/86969518/204094146-6aeb74d7-6363-4406-b1a7-c31d41eb0487.png)
 
 11/26: 실패...(api 요청 보냈을 때)
 ![image](https://user-images.githubusercontent.com/86969518/204094201-15f550fc-385f-450a-b468-1f75954c2772.png)
 
 
-<B>11월 28일: 드디어 해결!</B>(진짜 너무너무 기쁘다..)
+<B>11월 28일: 드디어 해결!</B>(진짜 너무너무 기쁘다..)  
 (EC2 DNS 주소)/api/register - 회원가입 성공 (Post 요청 성공)
 ![image](https://user-images.githubusercontent.com/86969518/204206235-66722087-022b-41ed-9a2b-1da4fcb55b66.png)
 (EC2 DNS 주소)/api/todos (Get 요청 성공)
 ![image](https://user-images.githubusercontent.com/86969518/204205610-763a1a3a-975b-44fb-83f6-9e8c127a3fc7.png)
 
 ### 이번 과제를 하며...
-#### issues
+### issues
 ![image](https://user-images.githubusercontent.com/86969518/204094401-02088632-c035-4218-a73d-f6d3a12d0cd9.png)
 배포를 하고 서버 주소에 들어갔는데 502 에러가 떴다.  
 알고 보니 requirements.txt에 설치한 모듈들이 빠져있어서 web container가 제대로 실행이 안된 것이었다.  
